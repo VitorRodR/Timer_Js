@@ -1,0 +1,43 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+.display {
+	display: flex;
+	justify-content: center;
+	margin-top: 25px;
+}
+
+.display input{
+	border: 1px solid #D3D3D3;
+	border-radius: 10px;
+	text-align: center;
+	width: 350px;
+	height: 80px;
+	font-size: 50px;
+}
+
+.button-pad {
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+}
+
+.button-pad button {
+	border: 1px solid transparent;
+	border-radius: 10px;
+	width: 140px;
+	height: 40px;
+	color: #F8F8FF;
+	background-color: #87CEEB;
+	margin: 0 10px;
+}
+
+#start-stop-btn {
+	background-color: green;
+}
+
+#reset-btn:hover {
+	background-color: #4682B4;
+}
