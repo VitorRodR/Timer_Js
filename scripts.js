@@ -83,8 +83,8 @@ startStopBtn.addEventListener("click", function(){
 });
 
 resetBtn.addEventListener("click", function(){
-	if (timer.running) {
-		watch.stopTime();
+	if (timer.isRunning) {
+		timer.stopTime();
 	}
 	else {
 		timer.resetTime();
